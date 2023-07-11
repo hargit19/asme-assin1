@@ -1,0 +1,794 @@
+@font-face {
+    font-family: try;
+    src:url(IntegralCF-ExtraBold.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+    min-height: 75px;
+    position: fixed;
+    top: 0;
+    background-color: burlywood;
+    z-index: 999;
+
+}
+.logo{
+    width: 58px;
+    height: 48px;
+    margin-top: 0.7rem;
+    margin-left: 2.5rem;
+}
+.navbar{
+    margin: 0;
+    width: 64%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-inline: 4.8rem;
+    
+}
+.navbar li{
+    font-family: 'Roboto Slab', serif;
+    list-style: none;
+    float: left;
+    margin-inline: 1rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+.navbar li:hover{
+    color: beige;
+    cursor: pointer;
+}
+.contact{
+    margin-top: 1rem;
+    width: 15%;
+    min-width: 200px;
+    height: 40px;
+    background-color: darkblue;
+    border: 0px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    border-radius: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 0.5rem;
+
+}
+.frame1{
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    padding-block: 7.5rem;
+}
+.frame1-heading{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.frame1-heading-line{
+    font-family: try;
+    width: 100%;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-block: 0.6rem;
+}
+#frame1-heading-line2{
+text-align: center
+}
+#frame1-heading-line3{
+    text-align:right
+}
+.frame1-img{
+    width: 8%;
+    border-radius: 50px;
+}
+.frame1-content{
+    font-family: 'Roboto Slab', serif;
+margin-left: 200px;
+    width: 35%;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+}
+.frame2{
+    padding-block: 2rem;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(9, 9, 9);
+}
+.frame2 h1{
+    font-family: try;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight:900;
+    color: white;
+}
+.frame2-content{
+    width: 60%;
+    font-size: 1.3rem;
+    margin-block: 1.4rem;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+.frame2-btn{
+    
+text-transform: uppercase;
+font-size: 1rem;
+width: 15%;
+font-weight: 900;
+border: 2px solid white;
+box-sizing: border-box;
+text-align: center;
+border-radius: 15px;
+min-height: 2rem;
+padding-top: 0.4rem;
+background-color: darkblue;
+color: white;
+
+}
+.hamburger{
+    display: none;
+    margin-top: 10px;
+}
+.bar{
+    display: block;
+    width:40px;
+    height: 5px;
+    margin:3px auto;
+    background-color: black;
+}
+.hamburger-2{
+    display: none;
+    height: fit-content;
+}
+.bar-2{
+    display: block;
+    width: 45px;
+    height: 4px;
+    margin-block: 4px auto;
+    background-color: black;
+}
+.frame3{
+    min-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center
+}
+.frame3 h1{
+    font-family: try;
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-block: 1rem; 
+}
+.frame3-content{
+    width: 80%;
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    gap: 1.5rem;
+}
+.frame3-content-inside{
+    min-width:100%;
+    box-sizing: border-box;
+}
+.frame3-content-inside h3 {
+    font-family: try;
+    display: inline;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 900;
+    
+}
+.frame3-content-inside img {
+    width: 25%;
+    float: right;
+}
+.frame3-content-inside p{
+   font-weight: 700;
+    margin-top: 80px;
+    width: 70%;
+    font-family: 'Roboto Slab', serif;
+    
+}
+.frame4{
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+}
+.frame4 h1{
+    font-family: try;
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-block: 3rem; 
+}
+.frame4-content{
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1.5rem
+}
+.frame4-content-inside{
+min-height: 18rem;
+}
+.frame4-content-inside img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.frame4-content-inside h2{
+    font-family: try;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 900;
+      
+}
+.frame5{
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: black;
+   
+}
+.frame5 h1{
+    font-family: try;
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: white;
+    margin-block: 1.5rem;
+}
+.frame5-content{
+    width: 90%;
+    display: grid;
+   grid-template-columns: repeat(7,24%);
+   overflow-x:auto;
+   gap: 3rem;
+   margin-block: 2rem;
+}
+.frame5-content-inside{
+    min-height: 5rem;
+    border: 1px solid white;
+    background-color: rgb(210, 204, 204);
+    box-sizing: border-box;
+    border-radius: 5%;
+}
+::-webkit-scrollbar {
+width: 100%;
+}
+::-webkit-scrollbar-thumb{
+width: 50%;
+background-color: aliceblue;
+border: 2px solid black;
+}
+
+
+
+
+.frame5-content-inside img {
+    width: 80%;
+    margin-inline: 1.5rem;
+    margin-top: 1rem;
+    border-radius: 10%;
+    border: 5px solid black;
+}
+.frame5-content-inside h3{
+    text-transform: uppercase;
+    margin-top: 0.7rem;
+   
+    font-size: 1.5rem;
+    padding-inline: 1rem;
+}
+.frame5-content-inside p{
+    text-align: justify;
+    font-family: 'Roboto Slab', serif;
+    padding-inline: 1rem;
+}
+.frame5-content-inside button{
+    text-decoration: none;
+    background-color: rgb(124, 91, 80);
+    border: 0;
+    font-weight: 700;
+    font-size: 1rem;
+    width: 45%;
+    text-transform: uppercase;
+    margin-inline: 4.7rem;
+    margin-block: 0.5rem;
+    padding: 0.2rem;
+
+    
+
+}
+.frame6{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.frame6 h1{
+    font-family: try;
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    margin-block: 1rem;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.frame6-content{
+    width: 80%;
+}
+.frame6-content hr {
+    margin-block: 2rem;
+}
+.frame6-content span {
+    font-family: try;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.frame6-content span a{
+    font-family: try;
+    text-decoration: none;
+    color: black;
+    scroll-behavior: smooth;
+    float: right;
+    margin-right: 1rem;
+    font-weight: 200;
+}
+.frame7{
+    min-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+.frame7 h1{
+    font-family: try;
+    height: fit-content;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    margin-block: 2rem;
+}
+.frame7-content{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8rem;
+}
+#office-address h2{
+    font-family: try;
+text-transform: uppercase;
+font-weight: 800;
+font-size: 1.8rem;
+}
+#office-address p{
+    margin-block: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  position: relative;
+  top: 5px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.coordinator{
+    margin-block: 3rem;
+}
+.coordinator h3{
+    font-size: 1.5rem;
+}
+#contact h2{
+    font-family: try;
+    text-transform: uppercase;
+font-weight: 800;
+font-size: 1.8rem;
+}
+#contact input{
+    margin-block: 0.8rem;
+    border: 1px solid white;
+background-color: black;
+font-weight: 600;
+font-size: 1rem;
+padding-left: 0.5rem;
+color: white;
+width: 100%;
+height: 2rem;
+}
+#contact textarea{
+    background-color: black;
+    color: white;
+    padding-left: 0.5rem;
+    border: 1px solid white;
+    font-weight: 600;
+font-size: 1rem;
+padding-top: 0.5rem;
+width: 100%;
+}
+#contact button{
+    width: 60%;
+    margin-inline: 4.6rem;
+    margin-block: 1rem;
+    height: 2rem;
+    font-size: 1rem;
+    border-radius: 30px;
+    color: white;
+    font-weight: 700;
+    background-color: darkblue;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }  
+  #keep-connected li{
+    list-style: none;
+    margin-block: 1rem;
+  }
+  #keep-connected span{
+    margin-left: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+#keep-connected h2{
+    font-family: try;
+    text-transform: uppercase;
+font-weight: 800;
+font-size: 1.8rem;
+}
+.ending{
+    width: 100%;
+    margin-left: 5rem;
+    margin-block: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1200px) and (min-width:1024px){
+    .navbar{
+        margin-inline: 3.5rem;
+        
+    }
+.navbar li{
+    font-size: 0.8rem;
+    font-family: try;
+}
+.frame1-heading-line{
+    font-size: 2.5rem;
+}
+
+}
+@media (min-width:768px) and (max-width:1023px){
+
+    .navbar{
+        z-index: 999;
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+        position: fixed;
+        top: 11%;
+        right:100%;
+        display: flex;
+        width: 20%;
+        flex-direction: column;
+        min-height: 388px;
+        background-color: darkslateblue;
+        transition: 0.4s ease-in;
+
+    }
+    
+    .navbar li{
+        font-size: 1rem;
+        margin-block: 0.5rem;
+        font-weight: 700;
+        color: white;
+        list-style:disc;
+        margin-block:0.75rem;
+        font-family: try;
+    }
+    .navbar li:hover{
+        color: black;
+        
+    }
+    .hamburger{
+        display:block;
+    }
+    .frame1{
+        max-width: 100%;
+        margin-inline: 5rem;
+
+
+    }
+    .frame1-heading{
+        width: 100%;
+    }
+    .frame1-heading-line{
+font-size: 2.5rem;
+    }
+    .frame1-content{
+       margin-left: 0px;
+       width: 100%;
+    }
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-around;
+    }
+    .frame6-content span {
+        font-size: 1.5rem;
+    }
+   
+
+.frame3-content-inside p {
+    margin-top: 10px;
+}
+.frame5-content {
+    grid-template-columns: repeat(7,40%);
+}
+.frame7-content{
+    gap: 5rem;
+}
+}
+@media (min-width:481px ) and (max-width:767px) {
+   .hamburger-2{
+    display: block;
+    margin-top: 17px;
+   }
+    .navbar{
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        position: fixed;
+        top: 75px;
+        right: 100%;
+        min-height: 250px;
+        box-sizing: border-box;
+        padding-inline: 12rem;
+        background-color: darkblue;
+        z-index: 999;
+        transition: 0.5s ease-in;
+    }
+    .navbar li{
+        width: 100%;
+        text-align: center;
+        font-size: 1.4rem;
+        margin-block: 0.2rem;
+        list-style: disc;
+        color: white;
+        font-family: try;
+    }
+    .navbar li:hover{
+        color: black;
+    }
+   header{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+   }
+   .frame1{
+    max-width: 80%;
+    margin-inline: 3rem;
+}
+.frame1-heading{
+    width: 100%;
+}
+.frame1-heading-line{
+font-size: 1.5rem;
+}
+.frame1-content{
+   margin-left: 0px;
+   width: 100%;
+}
+.frame2-btn{
+    width: 25%;
+}
+.frame3-content-inside p {
+    margin-top: 10px;
+}
+.frame4-content{
+    grid-template-columns: repeat(2,1fr);
+}
+.frame5-content {
+    grid-template-columns: repeat(7,50%);
+}
+.frame6-content span{
+    font-size: 1.0rem;
+}
+.frame7-content{
+    gap: 3rem;
+    font-size: 2rem;
+    grid-template-columns: 1fr;
+}
+}
+@media (min-width:0px) and (max-width:480px) {
+    .hamburger-2{
+        display: block;
+        margin-top: 17px;
+       }
+       .navbar{
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        position: fixed;
+        top: 75px;
+        right: 100%;
+        min-height: 250px;
+        box-sizing: border-box;
+        padding-inline: 12rem;
+        background-color: darkblue;
+        z-index: 999;
+        transition: 0.5s ease-in;
+    }
+    .navbar li{
+        width: 100%;
+        text-align: center;
+        font-size: 1.4rem;
+        margin-block: 0.2rem;
+        list-style: disc;
+        color: white;
+        font-family: try;
+    }
+    header{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-content: center;
+       }
+      
+       .frame1{
+        max-width: 100%;
+    }
+    .frame1-heading{
+        width: 100%;
+        margin-block: 1rem;
+    }
+    .frame1-heading-line{
+    font-size: 1.3rem;
+    text-align: center;
+    }
+    .frame1-content{
+        font-size: 1rem;
+       margin-left: 0px;
+       width: 100%;
+    }
+    .frame2-btn{
+        width: 25%;
+    }
+    .frame3-content-inside p {
+        margin-top: 10px;
+    }
+    .frame4-content{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .frame4 h1 {
+        font-size: 2rem;
+    }
+    .frame5-content {
+        grid-template-columns: repeat(7,75%);
+    }
+    .frame6-content span{
+        font-size: 1.0rem;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .frame6-content a{
+    width: 100%;
+    display: block;
+    text-align: center;
+    }
+    .frame7-content{
+        grid-template-columns: 1fr;
+    }
+
+}
